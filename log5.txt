@@ -1,0 +1,21 @@
+10-25 22:02:17.831 I/MediaCodec(17528): init video box disabled for codec not supported
+10-25 22:02:17.839 I/MediaCodec(17528): fps video to display enabled               10-25 22:02:17.839 I/MediaCodec(17528): The Fps from player is 0.000000  frameRateFloat -1.000000 frameRateInt -1                                                     10-25 22:02:17.839 I/MediaCodec(17528): MediaStub sendFrameRate
+10-25 22:02:17.839 I/MediaCodec(17528): MediaStub sendMine                         10-25 22:02:17.839 I/MediaCodec(17528): MediaStub sendDolbyVision                  10-25 22:02:17.839 I/MediaCodec(17528): MediaStub sendPackageName
+10-25 22:02:17.864 I/MediaCodec(17528): MediaStub sendHdrInfo/sendFrameRateFloatCal/updateFrcAieAisState                                                              10-25 22:02:24.720 D/UsbAudioDevice(18587): No USB audio device found
+10-25 22:02:24.721 I/SRMusicAudioDiag(18587): INIT_PLAYER initialApi=AUDIOTRACK bitPerfectRequested=false attemptBitPerfect=false                                     10-25 22:02:25.024 D/UsbAudioDevice(18587): No USB audio device found
+10-25 22:02:29.949 I/MediaCodec(17528): init video box disabled for codec not supported                                                                               10-25 22:02:29.960 I/MediaCodec(17528): fps video to display enabled
+10-25 22:02:29.960 I/MediaCodec(17528): The Fps from player is 0.000000  frameRateFloat -1.000000 frameRateInt -1                                                     10-25 22:02:29.960 I/MediaCodec(17528): MediaStub sendFrameRate
+10-25 22:02:29.961 I/MediaCodec(17528): MediaStub sendMine                         10-25 22:02:29.961 I/MediaCodec(17528): MediaStub sendDolbyVision                  10-25 22:02:29.961 I/MediaCodec(17528): MediaStub sendPackageName
+10-25 22:02:30.017 I/MediaCodec(17528): MediaStub sendHdrInfo/sendFrameRateFloatCal/updateFrcAieAisState                                                              10-25 22:02:34.473 D/UsbAudioDevice(18587): No USB audio device found
+10-25 22:02:35.395 D/SRMusicAudioDiag(18587): EFFECTIVE_OUTPUT_CONFIG rate=192000 chMask=12 enc=2                                                                     10-25 22:02:35.395 D/SRMusicAudioDiag(18587): EFFECTIVE_OUTPUT_CONFIG: rate=192000 mask=12 enc=2
+10-25 22:02:35.395 D/SRMusicAudioDiag(18587): DECODER_INPUT_FORMAT rate=192000 channels=2 pcmEncoding=2
+10-25 22:02:35.395 D/SRMusicAudioDiag(18587): DECODER_OUTPUT_PCM: rate=192000 ch=2 enc=2
+10-25 22:02:36.148 I/SRMusicAudioDiag(18587): PLAYER_READY backend=AUDIOTRACK isBitPerfect=false audioSessionId=4713 posMs=0
+10-25 22:02:45.346 I/MediaCodec(17528): init video box disabled for codec not supported
+10-25 22:02:45.354 I/MediaCodec(17528): fps video to display enabled
+10-25 22:02:45.354 I/MediaCodec(17528): The Fps from player is 0.000000  frameRateFloat -1.000000 frameRateInt -1
+10-25 22:02:45.354 I/MediaCodec(17528): MediaStub sendFrameRate
+10-25 22:02:45.356 I/MediaCodec(17528): MediaStub sendMine
+10-25 22:02:45.356 I/MediaCodec(17528): MediaStub sendDolbyVision
+10-25 22:02:45.356 I/MediaCodec(17528): MediaStub sendPackageName
+10-25 22:02:45.379 I/MediaCodec(17528): MediaStub sendHdrInfo/sendFrameRateFloatCal/updateFrcAieAisState
