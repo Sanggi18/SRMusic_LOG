@@ -1,0 +1,42 @@
+ $ su -c "dumpsys activity exit-info com.sr.oweshw | head -n 50"
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-10-25 21:33:01.694
+  package: com.sr.oweshw
+    Historical Process Exit for uid=10404
+        ApplicationExitInfo #0:
+          timestamp=2026-10-25 21:47:01.719 pid=12724 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=6 (ANR) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=79MB rss=132MB description=user request after error: Input dispatching timed out (85e1abf com.sr.oweshw/com.example.MainActivity (server) is not responding. Waited 5000ms for MotionEvent(action=DOWN)) state=empty trace=/data/system/procexitstore/anr_2026-10-25-21-46-53-425.gz
+        ApplicationExitInfo #1:
+          timestamp=2026-10-25 21:45:16.710 pid=11140 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=125 pss=140MB rss=243MB description=OneKeyClean state=empty trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-10-25 21:40:17.164 pid=9959 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=125 pss=189MB rss=297MB description=OneKeyClean state=empty trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-10-25 21:37:35.223 pid=9011 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=6 (ANR) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=187MB rss=279MB description=user request after error: Input dispatching timed out (11e0d18 com.sr.oweshw/com.example.MainActivity (server) is not responding. Waited 5001ms for MotionEvent(action=DOWN)) state=empty trace=/data/system/procexitstore/anr_2026-10-25-21-36-59-907.gz
+        ApplicationExitInfo #4:
+          timestamp=2026-10-25 21:35:43.643 pid=8184 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=6 (ANR) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=143MB rss=248MB description=user request after error: Input dispatching timed out (64b2b74 com.sr.oweshw/com.example.MainActivity (server) is not responding. Waited 5004ms for MotionEvent(action=DOWN)) state=empty trace=/data/system/procexitstore/anr_2026-10-25-21-35-35-499.gz
+        ApplicationExitInfo #5:
+          timestamp=2026-10-25 21:35:04.650 pid=7985 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0,00 rss=0,00 description=OneKeyClean state=empty trace=null
+        ApplicationExitInfo #6:
+          timestamp=2026-10-25 21:34:56.049 pid=7673 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0,00 rss=0,00 description=SwipeUpClean state=empty trace=null
+        ApplicationExitInfo #7:
+          timestamp=2026-10-25 21:34:46.444 pid=7418 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=400 pss=0,00 rss=0,00 description=SwipeUpClean state=empty trace=null
+        ApplicationExitInfo #8:
+          timestamp=2026-10-25 21:34:36.054 pid=6582 realUid=10404 packageUid=10404 definingUid=10404 user=0
+          process=com.sr.oweshw reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+          importance=125 pss=292MB rss=411MB description=OneKeyClean state=empty trace=null
+~ $

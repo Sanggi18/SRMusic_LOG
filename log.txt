@@ -1,0 +1,162 @@
+10-25 21:40:44.804 D/TaskView( 3687): TaskView bind task, task=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116290005, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , isLock=false
+10-25 21:40:44.804 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116290005, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:44.805 D/TaskView( 3687): TaskView bind task, task=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116290005, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , isLock=false
+10-25 21:40:44.805 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116290005, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:49.169 F/DEBUG   (11184): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-25 21:40:49.169 F/DEBUG   (11184): Build fingerprint: 'Redmi/munch/munch:13/RKQ1.211001.001/V14.0.9.0.TLMCNXM:user/release-keys'
+10-25 21:40:49.169 F/DEBUG   (11184): Revision: '0'
+10-25 21:40:49.169 F/DEBUG   (11184): ABI: 'arm64'
+10-25 21:40:49.169 F/DEBUG   (11184): Timestamp: 2026-10-25 21:40:49.099773885+0700
+10-25 21:40:49.169 F/DEBUG   (11184): Process uptime: 14s
+10-25 21:40:49.170 F/DEBUG   (11184): ZygotePid: 1679407704
+10-25 21:40:49.170 F/DEBUG   (11184): Cmdline: media.extractor aextractor
+10-25 21:40:49.170 F/DEBUG   (11184): pid: 11184, tid: 11238, name: binder:11184_2  >>> media.extractor <<<
+10-25 21:40:49.170 F/DEBUG   (11184): uid: 1040
+10-25 21:40:49.170 F/DEBUG   (11184): tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+10-25 21:40:49.170 F/DEBUG   (11184): signal 0 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+10-25 21:40:49.170 F/DEBUG   (11184): Abort message: 'frameworks/av/media/extractors/mp4/MPEG4Extractor.cpp:1968 CHECK_EQ( *offset,stop_offset) failed: 493 vs. 590'
+10-25 21:40:49.170 F/DEBUG   (11184):     x0  0000000000000000  x1  0000000000002be6  x2  0000000000000006  x3  000000703dffa040
+10-25 21:40:49.170 F/DEBUG   (11184):     x4  6c2e72716e736260  x5  6c2e72716e736260  x6  6c2e72716e736260  x7  7f7f7f7f7f7f7f7f
+10-25 21:40:49.170 F/DEBUG   (11184):     x8  00000000000000f0  x9  00000070d9ec4c70  x10 0000000000000001  x11 00000070d9f39608
+10-25 21:40:49.170 F/DEBUG   (11184):     x12 000000703dffa000  x13 000000000000006e  x14 000000703dffa1d0  x15 0000000034155555
+10-25 21:40:49.170 F/DEBUG   (11184):     x16 00000070d9fa4a68  x17 00000070d9f7d290  x18 000000703d906000  x19 0000000000002bb0
+10-25 21:40:49.170 F/DEBUG   (11184):     x20 0000000000002be6  x21 00000000ffffffff  x22 000000703dffb620  x23 00000000000000a1
+10-25 21:40:49.170 F/DEBUG   (11184):     x24 0000000000000006  x25 b400007047e7b500  x26 0000000063616c61  x27 000000703fe19677
+10-25 21:40:49.170 F/DEBUG   (11184):     x28 000000703dffc000  x29 000000703dffa0c0
+10-25 21:40:49.170 F/DEBUG   (11184):     lr  00000070d9f2a588  sp  000000703dffa020  pc  00000070d9f2a5b4  pst 0000000000001000
+10-25 21:40:49.170 F/DEBUG   (11184): backtrace:
+10-25 21:40:49.170 F/DEBUG   (11184):       #00 pc 000000000008d5b4  /apex/com.android.runtime/lib64/bionic/libc.so (abort+168) (BuildId: 607a29162b319a50c57abd2b2141d335)
+10-25 21:40:49.170 F/DEBUG   (11184):       #01 pc 000000000000642c  /system/lib64/liblog.so (__android_log_default_aborter+16) (BuildId: ad25795c628bdbbd56718bcc43bc347a)
+10-25 21:40:49.170 F/DEBUG   (11184):       #02 pc 0000000000006f60  /system/lib64/liblog.so (__android_log_assert+312) (BuildId: ad25795c628bdbbd56718bcc43bc347a)
+10-25 21:40:49.170 F/DEBUG   (11184):       #03 pc 000000000002a480  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+23892) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #04 pc 0000000000028f6c  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+18496) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #05 pc 0000000000028344  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+15384) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #06 pc 0000000000028344  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+15384) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #07 pc 0000000000028344  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+15384) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #08 pc 0000000000028344  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+15384) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #09 pc 0000000000028344  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::parseChunk(long*, int)+15384) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.170 F/DEBUG   (11184):       #10 pc 0000000000023cb0  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::readMetaData()+208) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.172 F/DEBUG   (11184):       #11 pc 0000000000022ed0  /apex/com.android.media/lib64/extractors/libmp4extractor.so (android::MPEG4Extractor::countTracks()+44) (BuildId: 19a7fee42ab1e0738298401fe51cb192)
+10-25 21:40:49.172 F/DEBUG   (11184):       #12 pc 0000000000179fb4  /system/lib64/libstagefright.so (android::RemoteMediaExtractor::RemoteMediaExtractor(android::MediaExtractor*, android::sp<android::DataSource> const&, android::sp<android::RefBase> const&)+404) (BuildId: 0eaa3b51af77a781c9b631151776d5ae)
+10-25 21:40:49.172 F/DEBUG   (11184):       #13 pc 000000000017b390  /system/lib64/libstagefright.so (android::RemoteMediaExtractor::wrap(android::MediaExtractor*, android::sp<android::DataSource> const&, android::sp<android::RefBase> const&) (.cfi)+68) (BuildId: 0eaa3b51af77a781c9b631151776d5ae)
+10-25 21:40:49.172 F/DEBUG   (11184):       #14 pc 00000000001620c0  /system/lib64/libstagefright.so (android::MediaExtractorFactory::CreateFromService(android::sp<android::DataSource> const&, char const*) (.cfi)+420) (BuildId: 0eaa3b51af77a781c9b631151776d5ae)
+10-25 21:40:49.172 F/DEBUG   (11184):       #15 pc 0000000000003354  /system/lib64/libmediaextractorservice.so (android::MediaExtractorService::makeExtractor(android::sp<android::IDataSource> const&, std::__1::optional<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > const&, android::sp<android::IMediaExtractor>*)+124) (BuildId: d09d4efbb2f686cb92a3df1cc0a21933)
+10-25 21:40:49.172 F/DEBUG   (11184):       #16 pc 0000000000036ef4  /system/lib64/libmedia.so (android::BnMediaExtractorService::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+1148) (BuildId: fd8bfb4c45e4431b115295812e09b0d1)
+10-25 21:40:49.172 F/DEBUG   (11184):       #17 pc 0000000000051a1c  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+240) (BuildId: 71fb70512860946305167aa5b1715a98)
+10-25 21:40:49.172 F/DEBUG   (11184):       #18 pc 000000000005cbe0  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+1036) (BuildId: 71fb70512860946305167aa5b1715a98)
+10-25 21:40:49.172 F/DEBUG   (11184):       #19 pc 000000000005c708  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+164) (BuildId: 71fb70512860946305167aa5b1715a98)
+10-25 21:40:49.172 F/DEBUG   (11184):       #20 pc 000000000005cfcc  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+72) (BuildId: 71fb70512860946305167aa5b1715a98)
+10-25 21:40:49.172 F/DEBUG   (11184):       #21 pc 000000000008cf00  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+28) (BuildId: 71fb70512860946305167aa5b1715a98)
+10-25 21:40:49.172 F/DEBUG   (11184):       #22 pc 0000000000013598  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+424) (BuildId: 104125701f0f8a41374b9998e94209e9)
+10-25 21:40:49.172 F/DEBUG   (11184):       #23 pc 00000000000f5408  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208) (BuildId: 607a29162b319a50c57abd2b2141d335)
+10-25 21:40:49.172 F/DEBUG   (11184):       #24 pc 000000000008edfc  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: 607a29162b319a50c57abd2b2141d335)
+10-25 21:40:54.981 D/TaskView( 3687): TaskView bind task, task=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , isLock=false
+10-25 21:40:54.981 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:54.982 D/TaskView( 3687): TaskView bind task, task=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , isLock=false
+10-25 21:40:54.982 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:55.081 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:55.256 D/SRMusicAudioDiag(11140): EFFECTIVE_OUTPUT_CONFIG rate=192000 chMask=12 enc=2
+10-25 21:40:55.256 D/SRMusicAudioDiag(11140): EFFECTIVE_OUTPUT_CONFIG: rate=192000 mask=12 enc=2
+10-25 21:40:55.256 D/SRMusicAudioDiag(11140): DECODER_INPUT_FORMAT rate=192000 channels=2 pcmEncoding=2
+10-25 21:40:55.256 D/SRMusicAudioDiag(11140): DECODER_OUTPUT_PCM: rate=192000 ch=2 enc=2
+10-25 21:40:55.333 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:40:55.348 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:40:55.424 I/SRMusicAudioDiag(11140): PLAYER_READY backend=AUDIOTRACK isBitPerfect=false audioSessionId=4617 posMs=0
+10-25 21:40:55.499 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:55.507 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116295853, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=true, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:55.611 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:40:55.776 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:40:55.780 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:40:59.336 D/TaskView( 3687): TaskView bind task, task=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116305699, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , isLock=false
+10-25 21:40:59.336 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116305699, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:40:59.337 D/TaskView( 3687): TaskView bind task, task=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116305699, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , isLock=false
+10-25 21:40:59.338 D/TaskViewThumbnail( 3687): updateThumbnailScale, t=[TaskKey{id=564, stackId=0, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.oweshw/com.example.MainActivity }, userId=0, lastActiveTime=116305699, windowingMode=1, isThumbnailBlur=false, isScreening=false, topActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, mHashCode=17725676}, title=SRMusic, titleDescription=SRMusic, bounds=null, isLaunchTarget=false, isStackTask=true, isSystemApp=false, isDockable=true, baseActivity=ComponentInfo{com.sr.oweshw/com.example.MainActivity}, isLocked=false, isAccessLocked=false, mNeedHide=false] , mThumbnailBitmapSizeAfterScaled=(443, 970)
+10-25 21:41:03.076 I/SRMusicAudioDiag(11140): BITPERFECT_REQUEST enabled=false
+10-25 21:41:03.076 I/SRMusicAudioDiag(11140): SWITCH_START requestedApi=AUDIOTRACK bitPerfect=false force=true (previous api=AUDIOTRACK bitPerfect=false)
+10-25 21:41:03.119 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.124 I/SRMusicAudioDiag(11140): SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=false items=100 index=1 posMs=7188 playWhenReady=true elapsedMs=48
+10-25 21:41:03.201 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.212 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.223 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.336 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.422 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.433 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.537 D/SRMusicAudioDiag(11140): EFFECTIVE_OUTPUT_CONFIG rate=192000 chMask=12 enc=2
+10-25 21:41:03.537 D/SRMusicAudioDiag(11140): EFFECTIVE_OUTPUT_CONFIG: rate=192000 mask=12 enc=2
+10-25 21:41:03.537 D/SRMusicAudioDiag(11140): DECODER_INPUT_FORMAT rate=192000 channels=2 pcmEncoding=2
+10-25 21:41:03.537 D/SRMusicAudioDiag(11140): DECODER_OUTPUT_PCM: rate=192000 ch=2 enc=2
+10-25 21:41:03.654 I/SRMusicAudioDiag(11140): PLAYER_READY backend=AUDIOTRACK isBitPerfect=false audioSessionId=4625 posMs=7189
+10-25 21:41:03.692 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:03.792 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:05.766 I/SRMusicAudioDiag(11140): BITPERFECT_REQUEST enabled=true
+10-25 21:41:05.768 I/UsbAudioDevice(11140): Found USB audio device: JM6PRO (CX31993+MAX97220) (vendor=0x3302, product=0x33E2)
+10-25 21:41:05.787 I/UsbAudioDevice(11140): Permission requested for JM6PRO (CX31993+MAX97220)
+10-25 21:41:06.585 I/UsbAudioDevice(11140): USB permission result: granted=true for JM6PRO (CX31993+MAX97220)
+10-25 21:41:06.586 I/SRMusicAudioDiag(11140): BITPERFECT_PERMISSION_GRANTED: Activating direct USB Exclusive
+10-25 21:41:06.586 I/SRMusicAudioDiag(11140): SWITCH_START requestedApi=AUDIOTRACK bitPerfect=true force=true (previous api=AUDIOTRACK bitPerfect=false)
+10-25 21:41:06.621 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:06.671 I/SRMusicAudioDiag(11140): SWITCH_DONE newEffectiveBackend=AUDIOTRACK requestedBitPerfect=true items=100 index=1 posMs=9313 playWhenReady=true elapsedMs=86
+10-25 21:41:06.751 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:06.760 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:06.770 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:06.942 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:06.955 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:06.957 I/UsbAudioSink(11140): handleDiscontinuity: marked startMediaTimeNeedsSync=true, reset handledEndOfStream
+10-25 21:41:06.957 I/UsbAudioSink(11140): configure: pcmEncoding=FLOAT rate=192000 ch=2 bitPerfect=true volMode=AUTO
+10-25 21:41:06.961 I/UsbAudioDevice(11140): Found USB audio device: JM6PRO (CX31993+MAX97220) (vendor=0x3302, product=0x33E2)
+10-25 21:41:06.962 I/UsbAudioDevice(11140): Found USB audio device: JM6PRO (CX31993+MAX97220) (vendor=0x3302, product=0x33E2)
+10-25 21:41:06.962 I/UsbAudioDevice(11140): USB device closed and all interfaces released
+10-25 21:41:06.963 I/UsbAudioDevice(11140): Found ISO OUT endpoint: address=0x1, maxPacket=192, interval=1
+10-25 21:41:06.969 I/UsbAudioDevice(11140): Claimed AudioControl interface 0 force=true: true
+10-25 21:41:06.969 I/UsbAudioDevice(11140): Claimed AudioStreaming interface 1 force=true: true (alt=1, endpoints=1)
+10-25 21:41:06.969 I/UsbAudioDevice(11140): Reset streaming to alt=0 (zero-bandwidth)
+10-25 21:41:07.040 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:07.050 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:07.070 D/UsbAudioDevice(11140):   AudioStreaming alt=0: id=1, endpoints=0
+10-25 21:41:07.070 D/UsbAudioDevice(11140):   AudioStreaming alt=1: id=1, endpoints=1
+10-25 21:41:07.070 D/UsbAudioDevice(11140):   AudioStreaming alt=2: id=1, endpoints=1
+10-25 21:41:07.070 D/UsbAudioDevice(11140):   AudioStreaming alt=3: id=1, endpoints=1
+10-25 21:41:07.070 I/UsbAudioDevice(11140): Device opened: JM6PRO (CX31993+MAX97220), fd=101, iface=1, epOut=0x1, epFb=0x-1, maxPacket=192, altSettings=4
+10-25 21:41:07.070 I/UsbAudioDevice(11140): parseClockSourceId: found CLOCK_SOURCE bClockID=0x9
+10-25 21:41:07.070 I/UsbAudioDevice(11140): parseBestAltSetting: alt=1 subslotSize=2 bitResolution=16
+10-25 21:41:07.070 I/UsbAudioDevice(11140): parseBestAltSetting: alt=2 subslotSize=3 bitResolution=24
+10-25 21:41:07.070 I/UsbAudioDevice(11140): parseBestAltSetting: alt=3 subslotSize=4 bitResolution=32
+10-25 21:41:07.070 I/UsbAudioDevice(11140): parseBestAltSetting: best alt=3 bits=32, all=[(1, 16), (2, 24), (3, 32)]
+10-25 21:41:07.070 I/UsbAudioDevice(11140): parseFeatureUnitId: found Feature Unit 0x2 with volume support (uac2=true)
+10-25 21:41:07.070 I/UsbAudioDevice(11140): Auto-detected: clockSourceId=0x9, bestAlt=3, bestBits=32, featureUnitId=0x2
+10-25 21:41:07.072 I/UsbAudioDevice(11140): setHardwareVolume(0.004444445): SUCCESS master channel (ret=2, dB=-47.04297)
+10-25 21:41:07.072 I/UsbAudioSink(11140): Volume safety initialized via hardware DAC control
+10-25 21:41:07.072 I/UsbAudioDevice(11140): findAltSettingForBitDepth(24): exact match alt=2
+10-25 21:41:07.073 I/UsbAudioSink(11140): Bit-perfect setup: targetBits=24 (source=24) -> selected alt=2 usb=24bit clockSource=0x9
+10-25 21:41:07.075 I/UsbAudioOutput(11140): Create: fd=101 ep=0x01 rate=192000 ch=2 bits=24 maxPkt=192
+10-25 21:41:07.075 I/UsbAudioDevice(11140): setAltSetting(0): true (iface id=1, endpoints=0)
+10-25 21:41:07.076 I/UsbAudioDevice(11140): setSampleRate(192000 Hz): SUCCESS with clockSourceId=0x9 (wIndex=0x900, ret=4)
+10-25 21:41:07.076 I/UsbAudioDevice(11140): readClockValid: clockSourceId=0x9 valid=1
+10-25 21:41:07.076 I/UsbAudioSink(11140): SET_CUR=192000, CLOCK_VALID=true
+10-25 21:41:07.076 I/UsbAudioDevice(11140): setAltSetting(0): true (iface id=1, endpoints=0)
+10-25 21:41:07.079 I/UsbAudioDevice(11140): setAltSetting(2): true (iface id=1, endpoints=1)
+10-25 21:41:07.079 I/UsbAudioSink(11140): setAlt(2) result=true
+10-25 21:41:07.079 I/UsbAudioOutput(11140): Start: rate=192000 ch=2 bits=24 ring=80 slots×8pkt fpmf=24.0000 feedback=one-shot
+10-25 21:41:07.079 I/UsbAudioSink(11140): stream.start() result=true
+10-25 21:41:07.081 D/UsbAudioSink(11140): Volume receiver registered
+10-25 21:41:07.082 I/UsbAudioSink(11140): USB bit-perfect stream ACTIVE: rate=192000 ch=2 bits=24 device=JM6PRO (CX31993+MAX97220) volumeRatio=0.004444445
+10-25 21:41:07.082 I/UsbAudioSink(11140): Delegate routed to speaker
+10-25 21:41:07.082 I/SRMusicAudioDiag(11140): USB_STREAM_ACTIVE rate=192000 ch=2 bits=24 device=JM6PRO (CX31993+MAX97220) volMode=AUTO gain=0.004444445
+10-25 21:41:07.085 I/UsbAudioSink(11140): Delegate configured (muted, routed to speaker for dummy sync)
+10-25 21:41:07.085 D/SRMusicAudioDiag(11140): DECODER_INPUT_FORMAT (C++ Direct USB) rate=192000 channels=2 pcmEncoding=4
+10-25 21:41:07.085 D/SRMusicAudioDiag(11140): DECODER_OUTPUT_PCM: rate=192000 ch=2 enc=4
+10-25 21:41:07.086 I/UsbAudioSink(11140): Sync media time: startMediaTimeUs=1000009322666, usbStartFrames=0 (queued=0)
+10-25 21:41:07.086 I/UsbAudioSink(11140): handleBuffer #1: FLOAT samples=8192 softVol=1.0
+10-25 21:41:07.087 I/UsbAudioSink(11140): handleBuffer #2: FLOAT samples=8192 softVol=1.0
+10-25 21:41:07.087 I/UsbAudioSink(11140): handleBuffer #3: FLOAT samples=8192 softVol=1.0
+10-25 21:41:07.099 I/SRMusicAudioDiag(11140): PLAYER_READY backend=AUDIOTRACK isBitPerfect=true audioSessionId=4633 posMs=9365
+10-25 21:41:07.114 I/UsbAudioOutput(11140): nativeWrite #5: 8192 samples, 20820us (20.8ms), inflight=80
+10-25 21:41:07.136 I/UsbAudioOutput(11140): nativeWrite #6: 8192 samples, 21437us (21.4ms), inflight=80
+10-25 21:41:07.149 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:07.157 I/UsbAudioOutput(11140): nativeWrite #7: 8192 samples, 20462us (20.5ms), inflight=80
+10-25 21:41:07.178 I/UsbAudioOutput(11140): nativeWrite #8: 8192 samples, 20623us (20.6ms), inflight=80
+10-25 21:41:07.200 I/UsbAudioOutput(11140): nativeWrite #9: 8192 samples, 22009us (22.0ms), inflight=80
+10-25 21:41:07.201 I/MiuiMediaControlPanel( 3636): media_data_arrive: bindPlayer: SRMusic, 红色高跟鞋, 蔡健雅
+10-25 21:41:07.221 I/UsbAudioOutput(11140): nativeWrite #10: 8192 samples, 20818us (20.8ms), inflight=80
+10-25 21:41:07.242 I/UsbAudioOutput(11140): nativeWrite #11: 8192 samples, 20823us (20.8ms), inflight=80
+10-25 21:41:07.264 I/UsbAudioOutput(11140): nativeWrite #12: 8192 samples, 21875us (21.9ms), inflight=80
