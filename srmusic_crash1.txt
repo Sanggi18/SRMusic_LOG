@@ -1,0 +1,522 @@
+11-17 19:19:28.021  2557  4885 I pm_critical_info: Uninstall pkg: com.sr.yrccsr u0 flags:4 from u10172/3722 of com.miui.home
+11-17 19:19:28.522  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,5,NULL]
+11-17 19:19:53.649  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,5,NULL]
+11-17 19:19:53.702  2557  3820 I wm_create_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity,NULL,NULL,NULL,268435456]
+11-17 19:19:53.776  2557  2596 I am_proc_start: [0,8491,10374,com.sr.yrccsr,next-top-activity,{com.sr.yrccsr/com.example.MainActivity}]
+11-17 19:19:53.839  2557  3134 I am_proc_bound: [0,8491,com.sr.yrccsr]
+11-17 19:19:53.900  2557  3134 I wm_restart_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:19:53.901  2557  3134 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{727f0ea u0 com.sr.yrccsr/com.example.MainActivity} t957}
+11-17 19:19:53.901  2557  3134 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,minimalResumeActivityLocked - onActivityStateChanged]
+11-17 19:19:54.180  2557  2577 I wm_relaunch_resume_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:19:54.875  2557  2581 I input_focus: [Focus request 38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:19:54.885  2557  5760 I input_focus: [Focus receive :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:19:54.885  2557  5760 I input_focus: [At display :0,Ignore setFocusedWindow :38d4e88 com.sr.yrccsr/com.example.MainActivity,Reason = NO_WINDOW]
+11-17 19:19:54.885  2557  3820 I input_focus: [At display :0,Ignore setInputWindows Focus :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason = NOT_VISIBLE]
+11-17 19:19:54.928  2557  2577 I sysui_multi_action: [319,255,321,173,322,1301,325,34585,757,761,758,7,759,1,806,com.sr.yrccsr,871,com.example.MainActivity,904,com.android.shell,905,0,945,270,1320,12,1321,1]
+11-17 19:19:54.928  2557  2577 I wm_activity_launch_time: [0,120058090,com.sr.yrccsr/com.example.MainActivity,1301]
+11-17 19:19:54.936  2557  5760 I input_focus: [At display :0,Focus update :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=setInputWindows]
+11-17 19:19:54.936  2557  3139 I input_focus: [Focus entering 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:19:59.239  2557  3139 I input_interaction: Interaction with: 38d4e88 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:19:59.363  2557  3424 I wm_pause_activity: [0,120058090,com.sr.yrccsr/com.example.MainActivity,userLeaving=true,resumeTopActivity]
+11-17 19:19:59.420  2557  3139 I input_focus: [Focus leaving 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=Waiting for window because NOT_FOCUSABLE]
+11-17 19:19:59.647  2557  2577 I sysui_multi_action: [319,298,322,296,325,34590,757,761,758,7,759,2,806,com.lbe.security.miui,871,com.android.packageinstaller.permission.ui.GrantPermissionsActivity,904,com.sr.yrccsr,905,0,945,56,1320,4,1321,24]
+11-17 19:20:01.416  2557  2934 I sysui_multi_action: [757,1243,758,4,806,com.sr.yrccsr,1241,android.permission.READ_MEDIA_AUDIO]
+11-17 19:20:01.426  8733  8733 I snet_event_log: [permissions_requested,10374,com.sr.yrccsr:android.permission-group.READ_MEDIA_AURAL|true|768]
+11-17 19:20:01.465  2557  2574 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{727f0ea u0 com.sr.yrccsr/com.example.MainActivity} t957}
+11-17 19:20:01.467  2557  2574 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,resumeTopActivity - onActivityStateChanged]
+11-17 19:20:01.469  2557  2574 I wm_resume_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:01.476  2557  2581 I input_focus: [Focus request 38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:01.493  2557  4003 I input_focus: [Focus receive :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:01.494  2557  3139 I input_focus: [Focus entering 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=setFocusedWindow]
+11-17 19:20:02.153  2557  3139 I input_interaction: Interaction with: 38d4e88 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:20:02.249  2557  4003 I wm_pause_activity: [0,120058090,com.sr.yrccsr/com.example.MainActivity,userLeaving=true,resumeTopActivity]
+11-17 19:20:02.256  2557  5760 I wm_add_to_stopping: [0,120058090,com.sr.yrccsr/com.example.MainActivity,makeInvisible]
+11-17 19:20:02.270  2557  3139 I input_focus: [Focus leaving 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=NO_WINDOW]
+11-17 19:20:02.505  2557  2577 I sysui_multi_action: [319,257,322,257,325,34593,757,761,758,8,759,2,806,com.android.settings,871,com.android.settings.Settings$AppManageExternalStorageActivity,904,com.sr.yrccsr,905,0,1320,4,1321,24]
+11-17 19:20:03.001  2557  2580 I wm_stop_activity: [0,120058090,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:03.118  8298  8298 I sysui_multi_action: [757,1730,758,4,854,com.sr.yrccsr,1089,0]
+11-17 19:20:03.524  2557  4003 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{727f0ea u0 com.sr.yrccsr/com.example.MainActivity} t957}
+11-17 19:20:03.524  2557  4003 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,resumeTopActivity - onActivityStateChanged]
+11-17 19:20:03.526  2557  4003 I wm_resume_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:03.552  2557  2581 I input_focus: [Focus request 38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:03.567  2557  5136 I input_focus: [Focus receive :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:03.567  2557  5136 I input_focus: [At display :0,Ignore setFocusedWindow :38d4e88 com.sr.yrccsr/com.example.MainActivity,Reason = NO_WINDOW]
+11-17 19:20:03.567  2557  2934 I input_focus: [At display :0,Ignore setInputWindows Focus :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason = NOT_VISIBLE]
+11-17 19:20:03.576  2557  2574 I input_focus: [At display :0,Focus update :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=setInputWindows]
+11-17 19:20:03.576  2557  3139 I input_focus: [Focus entering 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:20:04.096  2557  3139 I input_interaction: Interaction with: 38d4e88 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:20:04.202  2557  5136 I wm_pause_activity: [0,120058090,com.sr.yrccsr/com.example.MainActivity,userLeaving=true,resumeTopActivity]
+11-17 19:20:04.228  2557  3139 I input_focus: [Focus leaving 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=Waiting for window because NOT_FOCUSABLE]
+11-17 19:20:04.312  2557  2577 I sysui_multi_action: [319,109,322,108,325,34595,757,761,758,8,759,2,806,com.lbe.security.miui,871,com.android.packageinstaller.permission.ui.GrantPermissionsActivity,904,com.sr.yrccsr,905,0,1320,4,1321,24]
+11-17 19:20:05.329  2557  2934 I sysui_multi_action: [757,1243,758,4,806,com.sr.yrccsr,1241,android.permission.POST_NOTIFICATIONS]
+11-17 19:20:05.338  8733  8733 I snet_event_log: [permissions_requested,10374,com.sr.yrccsr:android.permission-group.NOTIFICATIONS|true|768]
+11-17 19:20:05.377  2557  2934 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{727f0ea u0 com.sr.yrccsr/com.example.MainActivity} t957}
+11-17 19:20:05.380  2557  2934 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,resumeTopActivity - onActivityStateChanged]
+11-17 19:20:05.382  2557  2934 I wm_resume_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:05.389  2557  2581 I input_focus: [Focus request 38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:05.393  2557  5880 I input_focus: [Focus receive :38d4e88 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:05.394  2557  3139 I input_focus: [Focus entering 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=setFocusedWindow]
+11-17 19:20:05.503  2557  3139 I input_interaction: Interaction with: 38d4e88 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:20:07.576  8491  8491 I auditd  : type=1400 audit(0.0:87987): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:07.576  8491  8491 I auditd  : type=1400 audit(0.0:87988): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:07.576  8491  8491 I auditd  : type=1400 audit(0.0:87989): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:07.576  8491  8491 I auditd  : type=1400 audit(0.0:87990): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:07.576  8491  8491 I auditd  : type=1400 audit(0.0:87991): avc: denied { getattr } for comm="com.sr.yrccsr" path="/data/mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:07.583  2557  2934 I am_crash: [8491,0,com.sr.yrccsr,550026822,java.lang.IllegalStateException,Asking for intrinsic measurements of SubcomposeLayout layouts is not supported. This includes components that are built on top of SubcomposeLayout, such as lazy lists, BoxWithConstraints, TabRow, etc. To mitigate this:
+11-17 19:20:07.587  2557  2934 I wm_finish_activity: [0,120058090,957,com.sr.yrccsr/com.example.MainActivity,force-crash]
+11-17 19:20:07.597  2557  2934 I wm_pause_activity: [0,120058090,com.sr.yrccsr/com.example.MainActivity,userLeaving=false,finish]
+11-17 19:20:07.615  2557  3139 I input_focus: [Focus leaving 38d4e88 com.sr.yrccsr/com.example.MainActivity (server),reason=NO_WINDOW]
+11-17 19:20:07.651  2557  4003 I am_proc_died: [0,8491,com.sr.yrccsr,0,2]
+11-17 19:20:07.743  2557  2581 I wm_task_removed: [957,removeChild:removeChild last r=ActivityRecord{727f0ea u0 com.sr.yrccsr/com.example.MainActivity} t-1 f}} in t=Task{d6f5551 #957 type=standard A=10374:com.sr.yrccsr U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+11-17 19:20:09.018  2557  5461 I wm_create_activity: [0,160017250,958,com.sr.yrccsr/com.example.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+11-17 19:20:09.052  2557  2596 I am_proc_start: [0,8904,10374,com.sr.yrccsr,next-top-activity,{com.sr.yrccsr/com.example.MainActivity}]
+11-17 19:20:09.095  2557  3133 I am_proc_bound: [0,8904,com.sr.yrccsr]
+11-17 19:20:09.099  2557  3133 I wm_restart_activity: [0,160017250,958,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:09.100  2557  3133 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{989ab62 u0 com.sr.yrccsr/com.example.MainActivity} t958}
+11-17 19:20:09.100  2557  3133 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,minimalResumeActivityLocked - onActivityStateChanged]
+11-17 19:20:09.592  2557  2581 I input_focus: [Focus request e5a2be6 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:09.606  2557  3133 I input_focus: [Focus receive :e5a2be6 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:09.606  2557  3133 I input_focus: [At display :0,Ignore setFocusedWindow :e5a2be6 com.sr.yrccsr/com.example.MainActivity,Reason = NOT_VISIBLE]
+11-17 19:20:09.664  2557  3133 I input_focus: [At display :0,Ignore setInputWindows Focus :e5a2be6 com.sr.yrccsr/com.example.MainActivity,reason = NOT_VISIBLE]
+11-17 19:20:09.666  2557  2577 I sysui_multi_action: [319,60,321,53,322,657,325,34600,757,761,758,7,759,1,806,com.sr.yrccsr,871,com.example.MainActivity,904,com.miui.home,905,0,945,90,1320,4,1321,25]
+11-17 19:20:09.666  2557  2577 I wm_activity_launch_time: [0,160017250,com.sr.yrccsr/com.example.MainActivity,657]
+11-17 19:20:09.672  2557  5461 I input_focus: [At display :0,Focus update :e5a2be6 com.sr.yrccsr/com.example.MainActivity,reason=setInputWindows]
+11-17 19:20:09.672  2557  3139 I input_focus: [Focus entering e5a2be6 com.sr.yrccsr/com.example.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:20:10.470  2557  5461 I am_crash: [8904,0,com.sr.yrccsr,550026822,java.lang.IllegalStateException,Asking for intrinsic measurements of SubcomposeLayout layouts is not supported. This includes components that are built on top of SubcomposeLayout, such as lazy lists, BoxWithConstraints, TabRow, etc. To mitigate this:
+11-17 19:20:10.473  2557  5461 I wm_finish_activity: [0,160017250,958,com.sr.yrccsr/com.example.MainActivity,force-crash]
+11-17 19:20:10.486  2557  5461 I wm_pause_activity: [0,160017250,com.sr.yrccsr/com.example.MainActivity,userLeaving=false,finish]
+11-17 19:20:10.499  2557  3139 I input_focus: [Focus leaving e5a2be6 com.sr.yrccsr/com.example.MainActivity (server),reason=Waiting for window because NOT_FOCUSABLE]
+11-17 19:20:10.755  2557  2581 I input_focus: [Focus request 2c5171c Application Error: com.sr.yrccsr,reason=UpdateInputWindows]
+11-17 19:20:10.772  2557  5801 I input_focus: [Focus receive :2c5171c Application Error: com.sr.yrccsr,reason=setFocusedWindow]
+11-17 19:20:10.772  2557  5801 I input_focus: [At display :0,Ignore setFocusedWindow :2c5171c Application Error: com.sr.yrccsr,Reason = NO_WINDOW]
+11-17 19:20:10.772  2557  5879 I input_focus: [At display :0,Ignore setInputWindows Focus :2c5171c Application Error: com.sr.yrccsr,reason = NOT_VISIBLE]
+11-17 19:20:10.780  2557  5801 I input_focus: [At display :0,Focus update :2c5171c Application Error: com.sr.yrccsr,reason=setInputWindows]
+11-17 19:20:10.781  2557  3139 I input_focus: [Focus entering 2c5171c Application Error: com.sr.yrccsr (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:20:10.988  2557  2580 I wm_add_to_stopping: [0,160017250,com.sr.yrccsr/com.example.MainActivity,completeFinishing]
+11-17 19:20:11.053  2557  2580 I wm_destroy_activity: [0,160017250,958,com.sr.yrccsr/com.example.MainActivity,finish-imm:transit]
+11-17 19:20:12.068  2557  3139 I input_interaction: Interaction with: 2c5171c Application Error: com.sr.yrccsr (server), {touchableRegion=[-1080,-2400][2160,4800], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:20:12.216  2557  5461 I wm_destroy_activity: [0,160017250,958,com.sr.yrccsr/com.example.MainActivity,finish-imm:handleAppCrashed]
+11-17 19:20:12.222  2557  5461 I am_kill : [0,8904,com.sr.yrccsr,900,crash]
+11-17 19:20:12.229  2557  2581 I wm_task_removed: [958,removeChild:removeChild last r=ActivityRecord{989ab62 u0 com.sr.yrccsr/com.example.MainActivity} t-1 f}} in t=Task{e104c29 #958 type=standard A=10374:com.sr.yrccsr U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+11-17 19:20:12.458  2557  4003 I input_focus: [At display :0,Ignore setInputWindows Focus :2c5171c Application Error: com.sr.yrccsr,reason = NO_WINDOW]
+11-17 19:20:40.083  2557  5878 I wm_create_activity: [0,34755825,959,com.sr.yrccsr/com.example.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+11-17 19:20:40.108  2557  2596 I am_proc_start: [0,9231,10374,com.sr.yrccsr,next-top-activity,{com.sr.yrccsr/com.example.MainActivity}]
+11-17 19:20:40.138  2557  3821 I am_proc_bound: [0,9231,com.sr.yrccsr]
+11-17 19:20:40.144  2557  3821 I wm_restart_activity: [0,34755825,959,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:40.144  2557  3821 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{21254f1 u0 com.sr.yrccsr/com.example.MainActivity} t959}
+11-17 19:20:40.145  2557  3821 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,minimalResumeActivityLocked - onActivityStateChanged]
+11-17 19:20:40.260  9231  9231 I auditd  : type=1400 audit(0.0:88370): avc: denied { read } for comm="com.sr.yrccsr" name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=17999 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0
+11-17 19:20:40.643  2557  2581 I input_focus: [Focus request 9d88a0e com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:40.653  2557  5767 I input_focus: [Focus receive :9d88a0e com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:40.653  2557  5767 I input_focus: [At display :0,Ignore setFocusedWindow :9d88a0e com.sr.yrccsr/com.example.MainActivity,Reason = NO_WINDOW]
+11-17 19:20:40.653  2557  3679 I input_focus: [At display :0,Ignore setInputWindows Focus :9d88a0e com.sr.yrccsr/com.example.MainActivity,reason = NOT_VISIBLE]
+11-17 19:20:40.710  2557  2577 I sysui_multi_action: [319,48,321,32,322,637,325,34631,757,761,758,7,759,1,806,com.sr.yrccsr,871,com.example.MainActivity,904,com.miui.home,905,0,945,70,1320,4,1321,25]
+11-17 19:20:40.711  2557  2577 I wm_activity_launch_time: [0,34755825,com.sr.yrccsr/com.example.MainActivity,637]
+11-17 19:20:40.719  2557  5879 I input_focus: [At display :0,Focus update :9d88a0e com.sr.yrccsr/com.example.MainActivity,reason=setInputWindows]
+11-17 19:20:40.720  2557  3139 I input_focus: [Focus entering 9d88a0e com.sr.yrccsr/com.example.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:20:41.428  9231  9231 I auditd  : type=1400 audit(0.0:88481): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:41.428  9231  9231 I auditd  : type=1400 audit(0.0:88482): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:41.428  9231  9231 I auditd  : type=1400 audit(0.0:88483): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:41.428  9231  9231 I auditd  : type=1400 audit(0.0:88484): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:41.428  9231  9231 I auditd  : type=1400 audit(0.0:88485): avc: denied { getattr } for comm="com.sr.yrccsr" path="/data/mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:41.440  2557  5461 I am_crash: [9231,0,com.sr.yrccsr,550026822,java.lang.IllegalStateException,Asking for intrinsic measurements of SubcomposeLayout layouts is not supported. This includes components that are built on top of SubcomposeLayout, such as lazy lists, BoxWithConstraints, TabRow, etc. To mitigate this:
+11-17 19:20:41.446  2557  5461 I wm_finish_activity: [0,34755825,959,com.sr.yrccsr/com.example.MainActivity,force-crash]
+11-17 19:20:41.456  2557  5461 I wm_pause_activity: [0,34755825,com.sr.yrccsr/com.example.MainActivity,userLeaving=false,finish]
+11-17 19:20:41.471  2557  3139 I input_focus: [Focus leaving 9d88a0e com.sr.yrccsr/com.example.MainActivity (server),reason=NO_WINDOW]
+11-17 19:20:41.507  2557  5135 I am_proc_died: [0,9231,com.sr.yrccsr,200,2]
+11-17 19:20:41.521  2557  5760 I input_focus: [At display :0,Ignore setInputWindows Focus :9d88a0e com.sr.yrccsr/com.example.MainActivity,reason = NO_WINDOW]
+11-17 19:20:41.559  2557  2581 I wm_task_removed: [959,removeChild:removeChild last r=ActivityRecord{21254f1 u0 com.sr.yrccsr/com.example.MainActivity} t-1 f}} in t=Task{e083244 #959 type=standard A=10374:com.sr.yrccsr U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+11-17 19:20:45.563  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,21,NULL]
+11-17 19:20:45.565  2557  2661 I sysui_multi_action: [757,1245,758,4,806,com.sr.yrccsr,1241,android.permission.READ_MEDIA_AUDIO]
+11-17 19:20:45.566  2557  2661 I sysui_multi_action: [757,1245,758,4,806,com.sr.yrccsr,1241,android.permission.POST_NOTIFICATIONS]
+11-17 19:20:45.593  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,5,NULL]
+11-17 19:20:46.734  2557  5760 I wm_create_activity: [0,113711354,961,com.sr.yrccsr/com.example.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+11-17 19:20:46.758  2557  2596 I am_proc_start: [0,9500,10374,com.sr.yrccsr,next-top-activity,{com.sr.yrccsr/com.example.MainActivity}]
+11-17 19:20:46.798  2557  3421 I am_proc_bound: [0,9500,com.sr.yrccsr]
+11-17 19:20:46.802  2557  3421 I wm_restart_activity: [0,113711354,961,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:46.803  2557  3421 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{6c718fa u0 com.sr.yrccsr/com.example.MainActivity} t961}
+11-17 19:20:46.803  2557  3421 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,minimalResumeActivityLocked - onActivityStateChanged]
+11-17 19:20:47.175  2557  2581 I input_focus: [Focus request fe9a281 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:47.188  2557  5808 I input_focus: [Focus receive :fe9a281 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:47.188  2557  5808 I input_focus: [At display :0,Ignore setFocusedWindow :fe9a281 com.sr.yrccsr/com.example.MainActivity,Reason = NO_WINDOW]
+11-17 19:20:47.188  2557  3421 I input_focus: [At display :0,Ignore setInputWindows Focus :fe9a281 com.sr.yrccsr/com.example.MainActivity,reason = NOT_VISIBLE]
+11-17 19:20:47.225  2557  2577 I sysui_multi_action: [319,44,321,32,322,494,325,34638,757,761,758,7,759,1,806,com.sr.yrccsr,871,com.example.MainActivity,904,com.miui.home,905,0,945,71,1320,4,1321,25]
+11-17 19:20:47.226  2557  2577 I wm_activity_launch_time: [0,113711354,com.sr.yrccsr/com.example.MainActivity,494]
+11-17 19:20:47.229  2557  3421 I input_focus: [At display :0,Focus update :fe9a281 com.sr.yrccsr/com.example.MainActivity,reason=setInputWindows]
+11-17 19:20:47.230  2557  3139 I input_focus: [Focus entering fe9a281 com.sr.yrccsr/com.example.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:20:48.788  2557  3139 I input_interaction: Interaction with: fe9a281 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:20:48.903  2557  3421 I wm_pause_activity: [0,113711354,com.sr.yrccsr/com.example.MainActivity,userLeaving=true,resumeTopActivity]
+11-17 19:20:48.932  2557  3139 I input_focus: [Focus leaving fe9a281 com.sr.yrccsr/com.example.MainActivity (server),reason=Waiting for window because NOT_FOCUSABLE]
+11-17 19:20:49.044  2557  2577 I sysui_multi_action: [319,143,322,142,325,34640,757,761,758,8,759,2,806,com.lbe.security.miui,871,com.android.packageinstaller.permission.ui.GrantPermissionsActivity,904,com.sr.yrccsr,905,0,1320,4,1321,24]
+11-17 19:20:49.612  2557  5808 I sysui_multi_action: [757,1243,758,4,806,com.sr.yrccsr,1241,android.permission.READ_MEDIA_AUDIO]
+11-17 19:20:49.621  8733  8733 I snet_event_log: [permissions_requested,10374,com.sr.yrccsr:android.permission-group.READ_MEDIA_AURAL|true|768]
+11-17 19:20:49.659  2557  3421 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{6c718fa u0 com.sr.yrccsr/com.example.MainActivity} t961}
+11-17 19:20:49.661  2557  3421 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,resumeTopActivity - onActivityStateChanged]
+11-17 19:20:49.663  2557  3421 I wm_resume_activity: [0,113711354,961,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:20:49.672  2557  2581 I input_focus: [Focus request fe9a281 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:20:49.684  2557  5138 I input_focus: [Focus receive :fe9a281 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:20:49.684  2557  3139 I input_focus: [Focus entering fe9a281 com.sr.yrccsr/com.example.MainActivity (server),reason=setFocusedWindow]
+11-17 19:20:49.860  2557  3139 I input_interaction: Interaction with: fe9a281 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:20:52.228  9500  9500 I auditd  : type=1400 audit(0.0:88950): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:52.228  9500  9500 I auditd  : type=1400 audit(0.0:88951): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:52.232  9500  9500 I auditd  : type=1400 audit(0.0:88952): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:52.232  9500  9500 I auditd  : type=1400 audit(0.0:88953): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:52.232  9500  9500 I auditd  : type=1400 audit(0.0:88954): avc: denied { getattr } for comm="com.sr.yrccsr" path="/data/mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0
+11-17 19:20:52.239  2557  5461 I am_crash: [9500,0,com.sr.yrccsr,550026822,java.lang.IllegalStateException,Asking for intrinsic measurements of SubcomposeLayout layouts is not supported. This includes components that are built on top of SubcomposeLayout, such as lazy lists, BoxWithConstraints, TabRow, etc. To mitigate this:
+11-17 19:20:52.244  2557  5461 I wm_finish_activity: [0,113711354,961,com.sr.yrccsr/com.example.MainActivity,force-crash]
+11-17 19:20:52.258  2557  5461 I wm_pause_activity: [0,113711354,com.sr.yrccsr/com.example.MainActivity,userLeaving=false,finish]
+11-17 19:20:52.287  2557  3139 I input_focus: [Focus leaving fe9a281 com.sr.yrccsr/com.example.MainActivity (server),reason=NO_WINDOW]
+11-17 19:20:52.314  2557  5135 I am_proc_died: [0,9500,com.sr.yrccsr,200,2]
+11-17 19:20:52.377  2557  2581 I wm_task_removed: [961,removeChild:removeChild last r=ActivityRecord{6c718fa u0 com.sr.yrccsr/com.example.MainActivity} t-1 f}} in t=Task{a3268a1 #961 type=standard A=10374:com.sr.yrccsr U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+11-17 19:22:30.763  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,5,NULL]
+11-17 19:24:12.393  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,21,NULL]
+11-17 19:24:12.393  2557  2661 I sysui_multi_action: [757,1245,758,4,806,com.sr.yrccsr,1241,android.permission.READ_MEDIA_AUDIO]
+11-17 19:24:12.404  2557  2557 I notification_cancel_all: [1000,2557,com.sr.yrccsr,0,0,0,5,NULL]
+11-17 19:24:44.529  2557  4005 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity bnds=[695,1347][807,1459] (has extras)} from uid 10172 from pid 3722 callingPackage com.miui.home
+11-17 19:24:44.535  2557  4005 D MiGgameTypeIdentificationImpl: checkIfGameBeSupported app:com.sr.yrccsr
+11-17 19:24:44.535  2557  4005 I WindowManager: When perf version lower than 2.3, MiGTStub result: false, gameType: 1, packageName: com.sr.yrccsr
+11-17 19:24:44.539  2557  4005 I wm_create_activity: [0,212658033,967,com.sr.yrccsr/com.example.MainActivity,android.intent.action.MAIN,NULL,NULL,270532608]
+11-17 19:24:44.555  2557  3421 D CoreBackPreview: Window{90c0d2e u0 Splash Screen com.sr.yrccsr}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5ad4165, mPriority=0}
+11-17 19:24:44.557  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:44.557  2557  2596 D Boost   : hostingType=next-top-activity, hostingName={com.sr.yrccsr/com.example.MainActivity}, callerPackage=com.miui.home, isSystem=true, isBoostNeeded=false.
+11-17 19:24:44.558  2557  2596 I am_proc_start: [0,11908,10374,com.sr.yrccsr,next-top-activity,{com.sr.yrccsr/com.example.MainActivity}]
+11-17 19:24:44.559  2557  2596 I ActivityManager: Start proc 11908:com.sr.yrccsr/u0a374 for next-top-activity {com.sr.yrccsr/com.example.MainActivity} caller=com.miui.home
+11-17 19:24:44.567  4886  8143 W SQLiteLog: (28) double-quoted string literal: "com.sr.yrccsr"
+11-17 19:24:44.571 11908 11908 I com.sr.yrccsr: Late-enabling -Xcheck:jni
+11-17 19:24:44.573  2557  2581 I SmartPower.com.sr.yrccsr/10374(0): died->visible(232259ms) R(become visible) adj=-10000.
+11-17 19:24:44.573  2557  3281 I SmartPower: com.sr.yrccsr/10374 state=died adj=200 proc size=1 move to foreground become visible
+11-17 19:24:44.579  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=1 lastActiveTime=52492604 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@6ef5dd7} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{dcca6c4 com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:44.579  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:44.586  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:44.597  2557  3421 I am_proc_bound: [0,11908,com.sr.yrccsr]
+11-17 19:24:44.602  2557  3421 I wm_restart_activity: [0,212658033,967,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:24:44.603  2557  3421 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{cace771 u0 com.sr.yrccsr/com.example.MainActivity} t967}
+11-17 19:24:44.603  2557  3421 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,minimalResumeActivityLocked - onActivityStateChanged]
+11-17 19:24:44.605  2557  3253 D CameraBlackCoveredManager: mForegroundPackage = com.sr.yrccsr mOccupiedPackage = null
+11-17 19:24:44.605  6027  7031 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10172, mLastForegroundPid=3722, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=1}
+11-17 19:24:44.605  6027  6403 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.sr.yrccsr, uid = 10374, mCurrentForegroundUid = 10172
+11-17 19:24:44.605  3722  3838 D AppObserver: ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10172, mLastForegroundPid=3722, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=1}
+11-17 19:24:44.608  5267  5528 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10172, mLastForegroundPid=3722, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=1}
+11-17 19:24:44.608  5267  5528 I GameBoosterService: onForegroundInfoChanged: Cur=com.sr.yrccsr	 last=com.miui.home
+11-17 19:24:44.611  5267  5528 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10172, mLastForegroundPid=3722, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=1}
+11-17 19:24:44.614  5267  6177 E SuggestManager: openApp name = com.sr.yrccsr
+11-17 19:24:44.617  5267  5528 I BeautyService: onForegroundInfoChanged: Cur=com.sr.yrccsr	 last=com.miui.home
+11-17 19:24:44.621  2557  2933 I AppStateTracker: Package com.sr.yrccsr/10374 toggled out of fg service restriction
+11-17 19:24:44.621  2557  2933 I AppStateTracker: Package com.sr.yrccsr/10374 toggled out of fg service restriction
+11-17 19:24:44.622  2557  2933 I AppStateTracker: Package com.sr.yrccsr/10374 toggled out of fg service restriction
+11-17 19:24:44.622  2557  2933 I AppStateTracker: Package com.sr.yrccsr/10374 toggled out of fg service restriction
+11-17 19:24:44.647 11908 11908 V GraphicsEnvironment: ANGLE Developer option for 'com.sr.yrccsr' set to: 'default'
+11-17 19:24:44.647 11908 11908 V GraphicsEnvironment: ANGLE GameManagerService for com.sr.yrccsr: false
+11-17 19:24:44.650 11908 11908 I ForceDarkHelperStubImpl: initialize for com.sr.yrccsr , ForceDarkOrigin
+11-17 19:24:44.651  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=1 lastActiveTime=52492676 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@7eca165} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{20bae3a com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:44.651  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:44.651 11908 11908 D com.sr.yrccsr: JNI_OnLoad success
+11-17 19:24:44.655  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:44.673  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=1 lastActiveTime=52492698 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8eb0aeb} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{6297048 com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:44.673  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:44.677  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:44.753  2557  3821 D CoreBackPreview: Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@35f724, mPriority=0}
+11-17 19:24:44.754  5077  8651 I ActivityObserverUtil: activityResumed ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:44.754  5077  8651 I TopActivityMonitor: send TopActivityChangeEvent=TopActivityChangeEvent(prev=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher}, current=ComponentInfo{com.sr.yrccsr/com.example.MainActivity},appChanged=true)
+11-17 19:24:44.839 11908 11948 W com.sr.yrccsr: Accessing hidden method Landroid/database/sqlite/SQLiteDatabase;->getThreadSession()Landroid/database/sqlite/SQLiteSession; (unsupported, reflection, allowed)
+11-17 19:24:44.839 11908 11948 W com.sr.yrccsr: Accessing hidden method Landroid/database/sqlite/SQLiteSession;->beginTransaction(ILandroid/database/sqlite/SQLiteTransactionListener;ILandroid/os/CancellationSignal;)V (unsupported, reflection, allowed)
+11-17 19:24:44.960  2557  3821 D WindowManager: Input focus has changed to Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity} display=0
+11-17 19:24:44.961  2557  2581 I input_focus: [Focus request 5f80ab6 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:24:44.966  1528  1604 I SurfaceFlinger: setTransactionState focusRequest transactionId:10982231464260 frontWin:5f80ab6 com.sr.yrccsr/com.example.MainActivity
+11-17 19:24:44.974  2557  4005 I input_focus: [Focus receive :5f80ab6 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:24:44.974  2557  4005 I input_focus: [At display :0,Ignore setFocusedWindow :5f80ab6 com.sr.yrccsr/com.example.MainActivity,Reason = NO_WINDOW]
+11-17 19:24:44.975  2557  3821 I input_focus: [At display :0,Ignore setInputWindows Focus :5f80ab6 com.sr.yrccsr/com.example.MainActivity,reason = NOT_VISIBLE]
+11-17 19:24:44.984 11908 11936 I com.sr.yrccsr: Support FEAS product munch: 
+11-17 19:24:45.000 11908 11936 D com.sr.yrccsr: MiuiProcessManagerServiceStub setSchedFifo
+11-17 19:24:45.003 11908 11936 E com.sr.yrccsr: DF open fail: No such file or directory
+11-17 19:24:45.006  2557  4005 D MiuiFreeFormGesturePointerEventListener: finishDrawingWindow: topFullScreenWindow= Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:45.006 11908 11908 W com.sr.yrccsr: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+11-17 19:24:45.014  2557  2577 I sysui_multi_action: [319,47,321,40,322,482,325,34876,757,761,758,7,759,1,806,com.sr.yrccsr,871,com.example.MainActivity,904,com.miui.home,905,0,945,71,1320,4,1321,25]
+11-17 19:24:45.014  2557  4005 D CoreBackPreview: Window{90c0d2e u0 Splash Screen com.sr.yrccsr}: Setting back callback null
+11-17 19:24:45.014  2557  2577 I wm_activity_launch_time: [0,212658033,com.sr.yrccsr/com.example.MainActivity,482]
+11-17 19:24:45.014  2557  2577 I ActivityTaskManager: Displayed com.sr.yrccsr/com.example.MainActivity: +482ms
+11-17 19:24:45.016  2557  4005 W InputManager-JNI: Input channel object '90c0d2e Splash Screen com.sr.yrccsr (client)' was disposed without first being removed with the input manager!
+11-17 19:24:45.016  2557  3821 I input_focus: [At display :0,Focus update :5f80ab6 com.sr.yrccsr/com.example.MainActivity,reason=setInputWindows]
+11-17 19:24:45.017  2557  3139 I input_focus: [Focus entering 5f80ab6 com.sr.yrccsr/com.example.MainActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+11-17 19:24:45.080  5369  5369 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1936 onStartInput(EditorInfo{EditorInfo{packageName=com.sr.yrccsr, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=72], hintText=null, hintLocales=[]}}, false)
+11-17 19:24:45.807  6027  6501 I DisplayFrameSetting: homeToAppEnd pkg=com.sr.yrccsr
+11-17 19:24:46.505  2557  3139 I input_interaction: Interaction with: 5f80ab6 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:24:46.505  2557  3139 D MIUIInput: [MotionEvent] publisher action=0x0, 34877980, channel '5f80ab6 com.sr.yrccsr/com.example.MainActivity (server)'
+11-17 19:24:46.564  2557  3139 D MIUIInput: [MotionEvent] publisher action=0x1, 34878039, channel '5f80ab6 com.sr.yrccsr/com.example.MainActivity (server)'
+11-17 19:24:46.570  2557  4005 I ActivityTaskManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.lbe.security.miui cmp=com.lbe.security.miui/com.android.packageinstaller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10374 from pid 11908 callingPackage com.sr.yrccsr
+11-17 19:24:46.578  2557  4005 I wm_pause_activity: [0,212658033,com.sr.yrccsr/com.example.MainActivity,userLeaving=true,resumeTopActivity]
+11-17 19:24:46.594  3722  9587 D AppObserver: ForegroundInfo{mForegroundPackageName='com.lbe.security.miui', mForegroundUid=10223, mForegroundPid=8733, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.lbe.security.miui', mMultiWindowForegroundUid=10223, mFlags=0}
+11-17 19:24:46.595  6027  6555 I ThermalInfoCollector: collectForgroundAppsInfo: com.sr.yrccsr
+11-17 19:24:46.596  5267 28282 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.lbe.security.miui', mForegroundUid=10223, mForegroundPid=8733, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.lbe.security.miui', mMultiWindowForegroundUid=10223, mFlags=0}
+11-17 19:24:46.597  6027  7031 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.lbe.security.miui', mForegroundUid=10223, mForegroundPid=8733, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.lbe.security.miui', mMultiWindowForegroundUid=10223, mFlags=0}
+11-17 19:24:46.600  5267 28282 I BeautyService: onForegroundInfoChanged: Cur=com.lbe.security.miui	 last=com.sr.yrccsr
+11-17 19:24:46.604  2557  3139 I input_focus: [Focus leaving 5f80ab6 com.sr.yrccsr/com.example.MainActivity (server),reason=Waiting for window because NOT_FOCUSABLE]
+11-17 19:24:46.671  5077  8651 I TopActivityMonitor: send TopActivityChangeEvent=TopActivityChangeEvent(prev=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}, current=ComponentInfo{com.lbe.security.miui/com.android.packageinstaller.permission.ui.GrantPermissionsActivity},appChanged=true)
+11-17 19:24:46.694  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.lbe.security.miui/com.android.packageinstaller.permission.ui.GrantPermissionsActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=2 lastActiveTime=52494717 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@88ad724} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{a82c28d com.android.packageinstaller.permission.ui.GrantPermissionsActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:46.694  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:46.698  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:46.710  2557  2577 I sysui_multi_action: [319,131,322,130,325,34878,757,761,758,8,759,2,806,com.lbe.security.miui,871,com.android.packageinstaller.permission.ui.GrantPermissionsActivity,904,com.sr.yrccsr,905,0,1320,4,1321,24]
+11-17 19:24:46.711  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.lbe.security.miui/com.android.packageinstaller.permission.ui.GrantPermissionsActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=2 lastActiveTime=52494736 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@701fc42} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=Rect(0, 80 - 0, 0) topActivityInfo=ActivityInfo{3c0b453 com.android.packageinstaller.permission.ui.GrantPermissionsActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:46.711  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:46.716  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:47.501  2557  5880 I sysui_multi_action: [757,1243,758,4,806,com.sr.yrccsr,1241,android.permission.READ_MEDIA_AUDIO]
+11-17 19:24:47.506  4789  8714 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.sr.yrccsr. Reason: op android:read_external_storage
+11-17 19:24:47.508  4789 11173 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.sr.yrccsr. Reason: op android:read_external_storage
+11-17 19:24:47.509  8733  8733 V GrantPermissionsActivity: Permission grant result requestId=-7023820293114349788 callingUid=10374 callingPackage=com.sr.yrccsr permission=android.permission.READ_MEDIA_AUDIO isImplicit=false result=4
+11-17 19:24:47.509  8733  8733 I snet_event_log: [permissions_requested,10374,com.sr.yrccsr:android.permission-group.READ_MEDIA_AURAL|true|768]
+11-17 19:24:47.544  2557  5878 D PerfStubImpl: perfWarmLaunchBoost: com.sr.yrccsr, -1, 2
+11-17 19:24:47.546  2557  5878 I input_focus: displayId :0, foucsApplication has changed to ActivityRecord{cace771 u0 com.sr.yrccsr/com.example.MainActivity} t967}
+11-17 19:24:47.548  2557  5878 D WindowManager: Input focus has changed to Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity} display=0
+11-17 19:24:47.548  2557  5878 I wm_set_resumed_activity: [0,com.sr.yrccsr/com.example.MainActivity,resumeTopActivity - onActivityStateChanged]
+11-17 19:24:47.550  2557  5878 I wm_resume_activity: [0,212658033,967,com.sr.yrccsr/com.example.MainActivity]
+11-17 19:24:47.561  3722  3740 D AppObserver: ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.lbe.security.miui', mLastForegroundUid=10223, mLastForegroundPid=8733, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=0}
+11-17 19:24:47.561  2557  3253 D CameraBlackCoveredManager: mForegroundPackage = com.sr.yrccsr mOccupiedPackage = null
+11-17 19:24:47.561  6027  7031 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.lbe.security.miui', mLastForegroundUid=10223, mLastForegroundPid=8733, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=0}
+11-17 19:24:47.561  5267 13754 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.lbe.security.miui', mLastForegroundUid=10223, mLastForegroundPid=8733, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=0}
+11-17 19:24:47.561  6027  6403 D LS-ForegroundStatusManager: handleMessage ForegroundInfoChanged. pkg = com.sr.yrccsr, uid = 10374, mCurrentForegroundUid = 10223
+11-17 19:24:47.562  2557  2581 I input_focus: [Focus request 5f80ab6 com.sr.yrccsr/com.example.MainActivity,reason=UpdateInputWindows]
+11-17 19:24:47.562  5267 13754 I GameBoosterService: onForegroundInfoChanged: Cur=com.sr.yrccsr	 last=com.lbe.security.miui
+11-17 19:24:47.564  5077  8651 I ActivityObserverUtil: activityResumed ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:47.564  5077  8651 I TopActivityMonitor: send TopActivityChangeEvent=TopActivityChangeEvent(prev=ComponentInfo{com.lbe.security.miui/com.android.packageinstaller.permission.ui.GrantPermissionsActivity}, current=ComponentInfo{com.sr.yrccsr/com.example.MainActivity},appChanged=true)
+11-17 19:24:47.569  1528  2623 I SurfaceFlinger: setTransactionState focusRequest transactionId:10982231464401 frontWin:5f80ab6 com.sr.yrccsr/com.example.MainActivity
+11-17 19:24:47.570  5267 13754 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.sr.yrccsr', mForegroundUid=10374, mForegroundPid=11908, mLastForegroundPackageName='com.lbe.security.miui', mLastForegroundUid=10223, mLastForegroundPid=8733, mMultiWindowForegroundPackageName='com.sr.yrccsr', mMultiWindowForegroundUid=10374, mFlags=0}
+11-17 19:24:47.571  5267  6177 E SuggestManager: openApp name = com.sr.yrccsr
+11-17 19:24:47.573  5267 13754 I BeautyService: onForegroundInfoChanged: Cur=com.sr.yrccsr	 last=com.lbe.security.miui
+11-17 19:24:47.577  2557  5135 I input_focus: [Focus receive :5f80ab6 com.sr.yrccsr/com.example.MainActivity,reason=setFocusedWindow]
+11-17 19:24:47.578  2557  3139 I input_focus: [Focus entering 5f80ab6 com.sr.yrccsr/com.example.MainActivity (server),reason=setFocusedWindow]
+11-17 19:24:47.587  5369  5369 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1936 onStartInput(EditorInfo{EditorInfo{packageName=com.sr.yrccsr, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=Bundle[mParcelledData.dataSize=72], hintText=null, hintLocales=[]}}, false)
+11-17 19:24:47.654  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=1 lastActiveTime=52495679 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@b304190} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{ce5fa89 com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:47.654  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:47.657  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:47.666  3722  4147 W RecentsModel: getRunningTask   taskInfo=TaskInfo{userId=0 taskId=967 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sr.yrccsr/com.example.MainActivity } baseActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} topActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} origActivity=null realActivity=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} numActivities=1 lastActiveTime=52495691 supportsSplitScreenMultiWindow=true supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@f379a8e} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=0 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{39842af com.example.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isSleeping=false topActivityInSizeCompat=false topActivityInMiuiSizeCompat=false topActivityEligibleForLetterboxEducation= false locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden mIsCastMode=false}
+11-17 19:24:47.666  3722  4147 W RecentsModel: getTaskInfoIgnoreHomeAndFreeform   taskInfo=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:47.668  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:48.311  2557  3139 I input_interaction: Interaction with: 5f80ab6 com.sr.yrccsr/com.example.MainActivity (server), {touchableRegion=[0,0][1080,2400], visible=true, trustedOverlay=false, flags[NOT_TOUCHABLE=false, NOT_FOCUSABLE=false, NOT_TOUCH_MODAL=true]}, [Gesture Monitor] miui-gesture (server), PointerEventDispatcher0 (server), 
+11-17 19:24:48.312  2557  3139 D MIUIInput: [MotionEvent] publisher action=0x0, 34879786, channel '5f80ab6 com.sr.yrccsr/com.example.MainActivity (server)'
+11-17 19:24:48.401  2557  3139 D MIUIInput: [MotionEvent] publisher action=0x1, 34879876, channel '5f80ab6 com.sr.yrccsr/com.example.MainActivity (server)'
+11-17 19:24:48.763  6027  6501 I DisplayFrameSetting: homeToAppEnd pkg=com.sr.yrccsr
+11-17 19:24:50.079 11908 11921 I com.sr.yrccsr: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+11-17 19:24:50.079 11908 11921 I com.sr.yrccsr: Background concurrent copying GC freed 1195575(44MB) AllocSpace objects, 32(30MB) LOS objects, 15% free, 132MB/156MB, paused 755us,889us total 280.950ms
+11-17 19:24:50.170 11908 11921 I com.sr.yrccsr: This is sticky GC, maxfree is 8388608 minfree is 2097152
+11-17 19:24:50.292 11908 11921 I com.sr.yrccsr: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+11-17 19:24:50.403 11908 11921 I com.sr.yrccsr: This is sticky GC, maxfree is 8388608 minfree is 2097152
+11-17 19:24:50.575  5267  6204 D AppPredictService: start doPredict com.sr.yrccsr
+11-17 19:24:50.602 11908 11921 I com.sr.yrccsr: This is non sticky GC, maxfree is 8388608 minfree is 2097152
+11-17 19:24:50.602 11908 11921 I com.sr.yrccsr: Background concurrent copying GC freed 37747(13MB) AllocSpace objects, 85(94MB) LOS objects, 32% free, 45MB/67MB, paused 289us,91us total 178.577ms
+11-17 19:24:50.692 11908 11908 D AndroidRuntime: Shutting down VM
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: FATAL EXCEPTION: main
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: Process: com.sr.yrccsr, PID: 11908
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: java.lang.IllegalStateException: Asking for intrinsic measurements of SubcomposeLayout layouts is not supported. This includes components that are built on top of SubcomposeLayout, such as lazy lists, BoxWithConstraints, TabRow, etc. To mitigate this:
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: - if intrinsic measurements are used to achieve 'match parent' sizing, consider replacing the parent of the component with a custom layout which controls the order in which children are measured, making intrinsic measurement not needed
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: - adding a size modifier to the component, in order to fast return the queried intrinsic measurement.
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode$NoIntrinsicsMeasurePolicy.minIntrinsicHeight(LayoutNode.kt:682)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode$NoIntrinsicsMeasurePolicy.minIntrinsicHeight(LayoutNode.kt:673)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.IntrinsicsPolicy.minIntrinsicHeight(IntrinsicsPolicy.kt:43)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.minIntrinsicHeight(LayoutNode.kt:731)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.minIntrinsicHeight(InnerNodeCoordinator.kt:138)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.PaddingNode.measure-3p2s80s(Padding.kt:449)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.SizeNode.minIntrinsicHeight(Size.kt:891)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.minIntrinsicHeight(MeasurePassDelegate.kt:766)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.IntrinsicMeasureBlocks.VerticalMinHeight(RowColumnImpl.kt:310)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.ColumnMeasurePolicy.minIntrinsicHeight(Column.kt:239)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.IntrinsicsPolicy.minIntrinsicHeight(IntrinsicsPolicy.kt:43)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.minIntrinsicHeight(LayoutNode.kt:731)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.minIntrinsicHeight(InnerNodeCoordinator.kt:138)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.minIntrinsicHeight(MeasurePassDelegate.kt:766)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.IntrinsicMeasureBlocks.VerticalMinHeight(RowColumnImpl.kt:310)
+11-17 19:24:50.694 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.ColumnMeasurePolicy.minIntrinsicHeight(Column.kt:239)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.IntrinsicsPolicy.minIntrinsicHeight(IntrinsicsPolicy.kt:43)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.minIntrinsicHeight(LayoutNode.kt:731)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.minIntrinsicHeight(InnerNodeCoordinator.kt:138)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.PaddingNode.measure-3p2s80s(Padding.kt:449)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.minIntrinsicHeight(MeasurePassDelegate.kt:766)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.layout.DefaultIntrinsicMeasurable.measure-BRTryo0(Layout.kt:325)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.BoxMeasurePolicy.measure-3p2s80s(Box.kt:145)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.layout.MeasurePolicy.minIntrinsicHeight(MeasurePolicy.kt:126)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.IntrinsicsPolicy.minIntrinsicHeight(IntrinsicsPolicy.kt:43)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.minIntrinsicHeight(LayoutNode.kt:731)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.minIntrinsicHeight(InnerNodeCoordinator.kt:138)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.graphics.SimpleGraphicsLayerModifier.measure-3p2s80s(GraphicsLayerModifier.kt:962)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.graphics.SimpleGraphicsLayerModifier.measure-3p2s80s(GraphicsLayerModifier.kt:962)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics$DefaultIntrinsicMeasurable.measure-BRTryo0(LayoutModifierNode.kt:351)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode$minIntrinsicHeight$1.measure-3p2s80s(LayoutModifierNode.kt:80)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.NodeMeasuringIntrinsics.minHeight$ui(LayoutModifierNode.kt:280)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNode.minIntrinsicHeight(LayoutModifierNode.kt:79)
+11-17 19:24:50.695 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.minIntrinsicHeight(LayoutModifierNodeCoordinator.kt:216)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.minIntrinsicHeight(MeasurePassDelegate.kt:766)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.IntrinsicMeasureBlocks.HorizontalMinHeight(RowColumnImpl.kt:297)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.RowMeasurePolicy.minIntrinsicHeight(Row.kt:246)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.IntrinsicsPolicy.minIntrinsicHeight(IntrinsicsPolicy.kt:43)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.minIntrinsicHeight(LayoutNode.kt:731)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.minIntrinsicHeight(InnerNodeCoordinator.kt:138)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.IntrinsicHeightNode.calculateContentConstraints-l58MMJ0(Intrinsic.kt:243)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.IntrinsicSizeModifier.measure-3p2s80s(Intrinsic.kt:281)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.PaddingNode.measure-3p2s80s(Padding.kt:449)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.performMeasureBlock$lambda$0(MeasurePassDelegate.kt:174)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.$r8$lambda$jCBFIYf948Y6LuQ57Fx-kHxOOn4(MeasurePassDelegate.kt:0)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate$$ExternalSyntheticLambda0.invoke(R8$$SyntheticClass:0)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.runtime.snapshots.SnapshotStateObserver.observeReads(SnapshotStateObserver.kt:512)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.remeasure-BRTryo0(MeasurePassDelegate.kt:138)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.measure-BRTryo0(MeasurePassDelegate.kt:484)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.layout.LazyLayoutMeasuredItemProvider.getPlaceables-3p2s80s(LazyLayoutMeasuredItem.kt:119)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.LazyListMeasuredItemProvider.getAndMeasure-0kLqBqw(LazyListMeasuredItemProvider.kt:54)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.LazyListMeasuredItemProvider.getAndMeasure-0kLqBqw$default(LazyListMeasuredItemProvider.kt:48)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.LazyListMeasureKt.measureLazyList-pIk1_oM(LazyListMeasure.kt:226)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.LazyListKt$rememberLazyListMeasurePolicy$1$1.measure-0kLqBqw(LazyList.kt:361)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.layout.LazyLayoutKt.LazyLayout$lambda$1$3$0(LazyLayout.kt:141)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.layout.LazyLayoutKt.$r8$lambda$rf3vllu87hDgmhs57JbwRZ1rpS4(LazyLayout.kt:0)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.layout.LazyLayoutKt$$ExternalSyntheticLambda4.invoke(R8$$SyntheticClass:0)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.layout.LayoutNodeSubcompositionsState$createMeasurePolicy$1.measure-3p2s80s(SubcomposeLayout.kt:955)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.measure-BRTryo0(InnerNodeCoordinator.kt:130)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.graphics.SimpleGraphicsLayerModifier.measure-3p2s80s(GraphicsLayerModifier.kt:962)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.lazy.layout.LazyLayoutBeyondBoundsProviderModifierNode.measure-3p2s80s(LazyLayoutBeyondBoundsModifierLocal.kt:122)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.performMeasureBlock$lambda$0(MeasurePassDelegate.kt:174)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.$r8$lambda$jCBFIYf948Y6LuQ57Fx-kHxOOn4(MeasurePassDelegate.kt:0)
+11-17 19:24:50.696 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate$$ExternalSyntheticLambda0.invoke(R8$$SyntheticClass:0)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.runtime.snapshots.SnapshotStateObserver.observeReads(SnapshotStateObserver.kt:512)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.remeasure-BRTryo0(MeasurePassDelegate.kt:138)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.measure-BRTryo0(MeasurePassDelegate.kt:484)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.RowColumnMeasurePolicyKt.measure(RowColumnMeasurePolicy.kt:126)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.RowColumnMeasurePolicyKt.measure$default(RowColumnMeasurePolicy.kt:77)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.ColumnMeasurePolicy.measure-3p2s80s(Column.kt:211)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.InnerNodeCoordinator.measure-BRTryo0(InnerNodeCoordinator.kt:130)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.InsetsPaddingModifierNode.measure-3p2s80s(WindowInsetsPadding.kt:506)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.foundation.layout.FillNode.measure-3p2s80s(Size.kt:721)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutModifierNodeCoordinator.measure-BRTryo0(LayoutModifierNodeCoordinator.kt:190)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.performMeasureBlock$lambda$0(MeasurePassDelegate.kt:174)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.$r8$lambda$jCBFIYf948Y6LuQ57Fx-kHxOOn4(MeasurePassDelegate.kt:0)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate$$ExternalSyntheticLambda0.invoke(R8$$SyntheticClass:0)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.runtime.snapshots.SnapshotStateObserver.observeReads(SnapshotStateObserver.kt:152)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasurePassDelegate.remeasure-BRTryo0(MeasurePassDelegate.kt:138)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.remeasure-_Sx5XlM$ui(LayoutNode.kt:1288)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.LayoutNode.remeasure-_Sx5XlM$ui$default(LayoutNode.kt:1281)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasureAndLayoutDelegate.doRemeasure-sdFAvZA(MeasureAndLayoutDelegate.kt:385)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasureAndLayoutDelegate.remeasureIfNeeded(MeasureAndLayoutDelegate.kt:674)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasureAndLayoutDelegate.access$remeasureIfNeeded(MeasureAndLayoutDelegate.kt:46)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.MeasureAndLayoutDelegate.measureAndLayout(MeasureAndLayoutDelegate.kt:411)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.platform.AndroidComposeView.measureAndLayout(AndroidComposeView.android.kt:1883)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.node.Owner.measureAndLayout$default(Owner.kt:257)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at androidx.compose.ui.platform.AndroidComposeView.dispatchDraw(AndroidComposeView.android.kt:2224)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.View.draw(Unknown Source:79)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.View.updateDisplayListIfDirty(Unknown Source:207)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.recreateChildDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.dispatchGetDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.View.updateDisplayListIfDirty(Unknown Source:77)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.recreateChildDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.dispatchGetDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.View.updateDisplayListIfDirty(Unknown Source:77)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.recreateChildDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.dispatchGetDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.View.updateDisplayListIfDirty(Unknown Source:77)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.recreateChildDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewGroup.dispatchGetDisplayList(Unknown Source:21)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.View.updateDisplayListIfDirty(Unknown Source:77)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ThreadedRenderer.updateViewTreeDisplayList(Unknown Source:27)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ThreadedRenderer.updateRootDisplayList(Unknown Source:10)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ThreadedRenderer.draw(Unknown Source:7)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewRootImpl.draw(Unknown Source:404)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewRootImpl.performDraw(Unknown Source:102)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewRootImpl.performTraversals(Unknown Source:3295)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewRootImpl.doTraversal(Unknown Source:36)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.ViewRootImpl$TraversalRunnable.run(Unknown Source:7)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.Choreographer$CallbackRecord.run(Unknown Source:20)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.Choreographer$CallbackRecord.run(Unknown Source:20)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.Choreographer.doCallbacks(Unknown Source:111)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.Choreographer.doFrame(Unknown Source:524)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Unknown Source:11)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.os.Handler.handleCallback(Unknown Source:2)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Unknown Source:4)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.os.Looper.loopOnce(Unknown Source:182)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.os.Looper.loop(Unknown Source:82)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at android.app.ActivityThread.main(Unknown Source:108)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:11)
+11-17 19:24:50.698 11908 11908 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(Unknown Source:312)
+11-17 19:24:50.696 11908 11908 I auditd  : type=1400 audit(0.0:92348): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 W com.sr.yrccsr: type=1400 audit(0.0:92348): avc: denied { search } for name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 I auditd  : type=1400 audit(0.0:92349): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 W com.sr.yrccsr: type=1400 audit(0.0:92349): avc: denied { search } for name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 I auditd  : type=1400 audit(0.0:92350): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 W com.sr.yrccsr: type=1400 audit(0.0:92350): avc: denied { search } for name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 I auditd  : type=1400 audit(0.0:92351): avc: denied { search } for comm="com.sr.yrccsr" name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 W com.sr.yrccsr: type=1400 audit(0.0:92351): avc: denied { search } for name="mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 I auditd  : type=1400 audit(0.0:92352): avc: denied { getattr } for comm="com.sr.yrccsr" path="/data/mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.696 11908 11908 W com.sr.yrccsr: type=1400 audit(0.0:92352): avc: denied { getattr } for path="/data/mqsas" dev="sda34" ino=373 scontext=u:r:untrusted_app:s0:c118,c257,c512,c768 tcontext=u:object_r:mqsas_data_file:s0 tclass=dir permissive=0 app=com.sr.yrccsr
+11-17 19:24:50.711  2557  5878 I am_crash: [11908,0,com.sr.yrccsr,552123974,java.lang.IllegalStateException,Asking for intrinsic measurements of SubcomposeLayout layouts is not supported. This includes components that are built on top of SubcomposeLayout, such as lazy lists, BoxWithConstraints, TabRow, etc. To mitigate this:
+11-17 19:24:50.717  2557  5878 W ActivityTaskManager:   Force finishing activity com.sr.yrccsr/com.example.MainActivity
+11-17 19:24:50.718  2557  5878 I wm_finish_activity: [0,212658033,967,com.sr.yrccsr/com.example.MainActivity,force-crash]
+11-17 19:24:50.721 11908 11921 I com.sr.yrccsr: This is sticky GC, maxfree is 8388608 minfree is 2097152
+11-17 19:24:50.731  2557  5878 I wm_pause_activity: [0,212658033,com.sr.yrccsr/com.example.MainActivity,userLeaving=false,finish]
+11-17 19:24:50.751  2557  3139 I input_focus: [Focus leaving 5f80ab6 com.sr.yrccsr/com.example.MainActivity (server),reason=Waiting for window because NOT_FOCUSABLE]
+11-17 19:24:50.814  2557  3819 I WindowManager: WIN DEATH: Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity}
+11-17 19:24:50.814  2557  5878 I SmartPower.com.sr.yrccsr/10374(11908): visible->died(6241ms) R(process died ) adj=200.
+11-17 19:24:50.814  2557  3819 W InputManager-JNI: Input channel object '5f80ab6 com.sr.yrccsr/com.example.MainActivity (client)' was disposed without first being removed with the input manager!
+11-17 19:24:50.814  2557  5878 I ActivityManager: Process com.sr.yrccsr (pid 11908) has died: prcp TOP 
+11-17 19:24:50.814  2557  5878 I am_proc_died: [0,11908,com.sr.yrccsr,200,2]
+11-17 19:24:50.816  2557  3281 I SmartPower: com.sr.yrccsr/10374 state=foreground adj=200 proc size=1 move to died process died 
+11-17 19:24:50.817  2557  3293 V MediaSessionRecord: error unlinking to binder death, this=com.sr.yrccsr/androidx.media3.session.id. (userId=0), callback package=miui.systemui.plugin, exception=java.util.NoSuchElementException: Death link does not exist (NAME_NOT_FOUND)
+11-17 19:24:50.839  5267  5537 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10172, mForegroundPid=3722, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10172, mFlags=0}
+11-17 19:24:50.840  6027  6555 I ThermalInfoCollector: collectForgroundAppsInfo: com.sr.yrccsr
+11-17 19:24:50.840  5077  8651 I TopActivityMonitor: send TopActivityChangeEvent=TopActivityChangeEvent(prev=ComponentInfo{com.sr.yrccsr/com.example.MainActivity}, current=ComponentInfo{com.miui.home/com.miui.home.launcher.Launcher},appChanged=true)
+11-17 19:24:50.841  5267  5537 I GameBoosterService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.sr.yrccsr
+11-17 19:24:50.841  5267  5537 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10172, mForegroundPid=3722, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10172, mFlags=0}
+11-17 19:24:50.843  3722  3838 D AppObserver: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10172, mForegroundPid=3722, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10172, mFlags=0}
+11-17 19:24:50.843  6027  7031 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.miui.home', mForegroundUid=10172, mForegroundPid=3722, mLastForegroundPackageName='com.sr.yrccsr', mLastForegroundUid=10374, mLastForegroundPid=11908, mMultiWindowForegroundPackageName='com.miui.home', mMultiWindowForegroundUid=10172, mFlags=0}
+11-17 19:24:50.846  5267  5537 I BeautyService: onForegroundInfoChanged: Cur=com.miui.home	 last=com.sr.yrccsr
+11-17 19:24:50.859  2557  2581 W WindowManager: Failed to deliver inset state change to w=Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity EXITING}
+11-17 19:24:50.877  2557  2581 W WindowManager: Exception thrown during dispatchAppVisibility Window{5f80ab6 u0 com.sr.yrccsr/com.example.MainActivity EXITING}
+11-17 19:24:50.896  2557  2581 I wm_task_removed: [967,removeChild:removeChild last r=ActivityRecord{cace771 u0 com.sr.yrccsr/com.example.MainActivity} t-1 f}} in t=Task{967c6c4 #967 type=standard A=10374:com.sr.yrccsr U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}]
+11-17 19:24:50.910  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:50.940  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:51.219  2557  2580 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{cace771 u0 com.sr.yrccsr/com.example.MainActivity} t-1 f}}
+11-17 19:24:52.309  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrccsr/com.example.MainActivity} }
+11-17 19:24:52.364  3722  4147 E ActivityManagerWrapper: getRecentTasks: mainTaskId=967   userId=0   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.sr.yrcc
